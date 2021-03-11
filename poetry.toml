@@ -1,0 +1,3 @@
+[repositories]
+[repositories.zotac]
+url = "http://zotac.local:8080/"
