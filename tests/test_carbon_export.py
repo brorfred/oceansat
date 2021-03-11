@@ -29,7 +29,7 @@ def test_dunne_2005():
 
 def test_eprod():
     eprod1 = oceansat.eprod(pprod=100, sst=15, z_eup=50)
-    eprod2 = oceansato.export_production.dunne_2005(pprod=100, sst=15,z_eup=50)
+    eprod2 = oceansat.export_production.dunne_2005(pprod=100, sst=15,z_eup=50)
     assert eprod1 == eprod2
     assert eprod2 == pytest.approx(30.78, 0.1)
     eprod = oceansat.export_production.dunne_2005(pprod=100, sst=15,z_eup=30, chl=10)

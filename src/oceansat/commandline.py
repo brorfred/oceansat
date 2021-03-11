@@ -2,4 +2,4 @@
 import oceansat
 
 def version():
-    print(oceanalgo._version__)
+    print(oceansat.__version__)
